@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css"> <!-- Link to external styles (optional) -->
+    <style>
+        #loansCanadaCompareIframe{
+            width:1px;
+            min-width:100%;
+            min-height:500px;
+            border-radius:10px;
+        }
+    </style>
+
+</head>
+<body style="background-color: var(--white);">
+    <div style="background-color: var(--white);">
+        <!-- NAVBAR STARTS -->
+            <nav class="navbar" style="margin-top: 30px;"   >
+                <div class="container-fluid nev">
+                <a class="navbar-brand" href="index.html"><img src="images/logo.svg" alt="logo" class="logo" width="80%"  /></a>         
+                
+                </div>
+            </nav>
+        <!-- NAVBAR ENDS -->
+    
+        <!-- LoansCanada Iframe -->
+
+        <div style="text-align:center; margin-top: 20px;">
+            <iframe 
+                id="loansCanadaCompareIframe" 
+                src="https://comparetool.loanscanada.ca?affiliate_id=1882&lang=en&theme=3" 
+                frameborder="0" scrolling="no"
+            >
+            </iframe>
+        </div>
+
+    </div>
+
+
+    <script src="https://comparetool.loanscanada.ca/js/iframe/lc.js"></script>
+
+</body>
+</html>
