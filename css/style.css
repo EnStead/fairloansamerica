@@ -301,61 +301,6 @@ h3{
   width: 7%;
 }
 
-/* Testimonial Section */
-/* .testimonial-container {
-  overflow: hidden;
-  position: relative;
-  width: 100%;
-  background-color: var(--off_white);  
-  padding: 30px;
-  background-image: url(/images/test_watermark.svg);
-  background-position: center; 
-  background-size: cover; 
-  background-repeat: no-repeat;
-  height: 50vh;
-}
-
-.testimonial-wrapper {
-  display: flex;
-  flex-wrap: nowrap;
-  gap: 20px;
-  animation: scroll 30s linear infinite;
-  width: max-content;
-} */
-
-/* Duplicate testimonials inside wrapper */
-/* .testimonial-wrapper > * {
-  flex: 0 0 auto;
-} */
-
-/* Hover effect to pause the scrolling */
-/* .testimonial-container:hover .testimonial-wrapper {
-  animation-play-state: paused;
-} */
-
-
-/* .testimonial-card {
-  width: 350px;
-  min-width: 350px;
-  padding: 20px;
-  background: #ffffff;
-  border-radius: 10px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-  text-align: center;
-  white-space: normal; 
-  word-wrap: break-word; 
-} */
-
-/* Smooth scrolling effect */
-@keyframes scroll {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(-50%);
-  }
-}
-
 
 /* Testimonial New Correct */
 
@@ -471,8 +416,6 @@ h5 {
 .footer-container {
   position: relative;
   background-color: #E5F1FA; /* Light Blue */
-  padding-top: 100px; /* Extra space for the overlapping section */
-  /* margin-top: 100px; */
 }
 
 .footer-top { 
@@ -491,6 +434,7 @@ h5 {
   padding: 0px 80px 40px;
   text-align: left;
 }
+
 .footer-links{
   color: black;
   /* text-decoration: none; */
@@ -831,6 +775,16 @@ h5 {
 
 }
 
+@media ( max-width:820px){
+  .testimonial-card {    
+    width: 700px;
+  }
+
+  .carousel{
+    width: 700px !important;
+  }
+}
+
 @media ( max-width:768px){
 
   .navbar{
@@ -838,7 +792,7 @@ h5 {
     max-width: 600px !important;
   }
 
-  .hero, #faq{
+  .hero, #faq {
     padding: 10px 20px !important;
   }
 
@@ -848,11 +802,11 @@ h5 {
   }
   
   #faq{
-    padding: 80px 20px 120px !important;
+    padding: 80px 20px!important;
   }
 
   .footer-bottom {
-    padding: 120px 20px 40px !important;
+    padding: 80px 20px 40px !important;
   }
 
   .work_img{
@@ -885,7 +839,7 @@ h5 {
   }
   
   h2{
-    /* font-size: 20px; */
+    font-size: 1.75rem;
   }
   
   h3{
@@ -896,6 +850,35 @@ h5 {
     width: 40% !important ;
     display: block;
   }
+
+}
+
+@media ( max-width:720px){
+  .testimonial-card {    
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .carousel{
+    width: 500px !important;
+  }
+
+  .testimonial-image{
+    display: none !important;
+  }
+
+  .carousel-control-next {
+    right: 35% !important;
+    
+  }
+  .carousel-control-prev {
+    left: 50% !important;
+    
+  }
+
+
 
 }
 
@@ -957,7 +940,7 @@ h5 {
   }
 
   .footer-bottom {
-    padding: 180px 20px 40px !important ;
+    padding: 80px 20px 40px !important ;
   }
 
   .hero_btn{
@@ -977,18 +960,74 @@ h5 {
     display: none;
   }
 
+  .ola {
+    width: 12%;
+  }
+
+  .siteseal{
+    width: 35%;
+  }
+
 }
 
+@media (max-width: 520px){
+  .testimonial-content {
+    flex: 1;
+    padding: 0px;
+  }
+
+  .testimonial-card {    
+    width: 330px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .carousel{
+    width: 330px !important;
+  }
+
+  .carousel-control-next {
+    right: 20% !important;
+    
+  }
+  .carousel-control-prev {
+    left: 60% !important;
+    
+  }
+
+  .loan-text {
+    font-size: 50px; 
+    min-width: 240% !important;
+  }
+
+
+
+
+}
+
+
 @media (max-width: 488px) {
+
+
+  .white_header img {
+    width: 30% !important;
+    top: 0px !important;
+  }
+
+  .green_header img{
+    width: 28% !important;
+   }
 
   .hero h1{
     line-height: 45px !important;
   }
 
-  .hero_card_mini{
-    width: 100% !important ;
-    padding: 20px 10px !important;
+  .work_steps img {
+    width: 17%;
   }
+
+
   .nv_btn{
     padding: 10px 20px !important;
     font-size: 14px !important ;
@@ -998,9 +1037,7 @@ h5 {
     padding: 10px 0px !important;
   }
 
-  .blue-card {   
-    padding: 20px !important ;
-  }
+
   .why_sec{
     padding: 0px !important;
   }
@@ -1052,8 +1089,8 @@ h5 {
   }
 
   .footer-bottom {
-    padding: 200px 20px 40px !important;
-    margin-top: 20px !important;
+    padding: 80px 20px 40px !important;
+   
   }
 
   .footer-top p {
@@ -1072,6 +1109,10 @@ h5 {
   .ft_btn{
     font-size: 14px !important;
     padding: 10px 20px !important ;
+  }
+
+  .req{
+    padding: 10px 20px !important;
   }
 
 
