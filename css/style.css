@@ -505,6 +505,9 @@ h5 {
   margin: auto;
 }
 
+.green_header{
+  text-align: right;
+}
 
 
 /* MEDIA QUERIES STARTS HERE*/
