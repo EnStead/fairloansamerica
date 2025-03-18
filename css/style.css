@@ -70,7 +70,7 @@ h3{
 /* NAVBAR STYLES */
 
 .navbar{
-  padding: 10px 40px;
+  padding: 10px 30px;
   border-radius: 16px;
   background: rgba(255, 255, 255, 0.4) !important;
   backdrop-filter: blur(10px); /* Apply background blur */
@@ -118,7 +118,7 @@ h3{
 .nav-link{
   color: var(--shade_grey) !important;
   font-weight: 400;
-  font-size: 14px !important;
+  font-size: 13px !important;
 }
 
 
@@ -575,6 +575,15 @@ h5 {
 
   }
 
+  .navbar-brand{
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+
+  .nev{
+    padding: 0px !important;
+  }
+
   .arr{
     right: 370px !important;
     bottom: 220px !important;
@@ -930,13 +939,14 @@ h5 {
     width:  40% !important;
   }
 
+
   .get_btn_dek{
     font-size: 14px !important;
     padding: 10px 10px !important ;
   }
 
   .navbar{
-    padding: 10px 40px !important;
+    padding: 10px 20px !important;
     max-width: 400px !important;
   }
 
@@ -1057,6 +1067,14 @@ h5 {
 
   .hero{
     min-height: 60vh;
+  }
+
+  .navbar{
+    padding: 10px 8px !important;
+  }
+
+  .get_loan{
+    font-size: 11px !important;
   }
 
 
@@ -1199,6 +1217,9 @@ h5 {
 } 
 
 @media (max-width: 388px){
+
+
+
   .work-card{   
     padding-bottom: 0px !important ;
     height: 280px !important;
