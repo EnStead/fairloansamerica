@@ -443,6 +443,9 @@ h5 {
   display: block;
   font-size: 14px;
 }
+.footlink{
+  padding: 0px !important;
+}
 .sub-footer-links{
   color: black;
   /* text-decoration: none; */
@@ -817,6 +820,10 @@ h5 {
     left: -50px !important;
     width: 30% !important;
   }
+  .fts{
+    font-size: 10px !important;
+    
+  }
 }
 
 @media ( max-width:768px){
@@ -1016,6 +1023,10 @@ h5 {
   .ftp{
     width: 100%;
     margin: auto;
+  }
+
+  .fts{
+    font-size: 14px !important;
   }
 
   .white_header img {
